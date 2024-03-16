@@ -1,0 +1,73 @@
+.inner-tab-container {
+  display: flex;
+}
+
+.tab-left-container {
+  width: 20%;
+}
+
+.tab-right-container {
+  width: 80%;
+}
+
+.inner-right-tab {
+  background-color: #fff;
+  padding-bottom: 80px;
+}
+
+.tab-contentitem {
+  padding: 35px 48px;
+  /* border-bottom: 1px solid #f0f0f5; */
+}
+
+.inner-left-tab-container {
+  position: sticky;
+  left: 0; /* This will stick it to the left side */
+  top: 0;
+}
+
+.sticky-inner-tab {
+  background-color: #fff;
+  z-index: 1;
+  border-right: 1px solid #e7e7e7;
+}
+
+.form-category-text {
+  padding: 1rem 1.5rem;
+}
+
+.form-category-text p {
+  font-size: clamp(14px, 4vw, 15px);
+  color: #fa896b;
+  cursor: pointer;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.selected-category-class {
+  background-color: #fa896b;
+}
+
+.selected-category-class p {
+  color: #fff;
+}
+
+.page-content {
+  padding-bottom: 60px;
+}
+
+.new-form-next-btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0 48px;
+}
+
+.new-form-next-btn div button {
+  font-size: clamp(14px, 4vw, 18px);
+  background-color: #fa896b;
+  color: #fff;
+  border: 1px solid #fa896b;
+  border-radius: 5px;
+  padding: 6px 15px;
+}

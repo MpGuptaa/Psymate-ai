@@ -1,0 +1,61 @@
+.yellow-btn {
+  background-color: #f8b133 !important;
+  border: #f8b133 !important;
+}
+
+thead[role="presentation"] {
+  display: none;
+}
+
+.fc-theme-bootstrap a:not([href]) {
+  margin: 0;
+}
+
+.fc td,
+.fc th {
+  border: 1px dotted #525d64;
+}
+
+.fc-timegrid-slots table tr {
+  border-color: #9ea4a7 !important;
+  height: 30px;
+}
+
+.fc .fc-timegrid-axis-cushion,
+.fc .fc-timegrid-slot-label-cushion {
+  font-weight: 700;
+}
+
+#external-events .external-event {
+  width: 100px;
+}
+
+.table-flex-class {
+  gap: 2rem;
+}
+
+.fc-theme-bootstrap a:not([href]) {
+  padding: 0;
+}
+
+.fc-event .fc-event-main {
+  background-color: antiquewhite;
+}
+
+.fc-v-event .fc-event-main {
+  color: #000;
+}
+
+.fc-prev-button,
+.fc-next-button {
+  height: 30.5px;
+  width: 25.5px;
+}
+
+/* table tr:first-child {
+  display: none;
+} */
+
+.la-plus:before {
+font-size: 20px;
+font-weight: 600;}

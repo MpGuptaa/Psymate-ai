@@ -1,0 +1,114 @@
+.custom-time-grid .fc-slats td {
+  padding-bottom: 10px; /* Adjust the spacing as needed */
+}
+
+.scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scroll-item {
+  display: inline-block;
+  margin-right: 10px;
+  width: 33.3333%;
+}
+
+/* .doc-heading-back{
+  background-color:  #FFE5B4;
+} */
+
+.container-calendar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* .fc,
+.fc *,
+.fc ::after,
+.fc ::before {
+  padding-top: 2px;
+} */
+
+.confirmed-circle-container {
+  background: #f7b84b;
+  padding: 3px;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  font-size: 17px;
+  text-align: center;
+}
+
+.calendar-patient-container {
+  width: 73.5%;
+}
+
+.doctor-box-container {
+  background-color: #fa896b;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+  background: #dddbdb;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.fc .fc-scrollgrid-section-liquid > td {
+  border-left: 1px dotted;
+}
+
+.card-body-grey-color {
+  background-color: #dddbdb;
+}
+
+/* .fc .fc-toolbar {
+  gap: 3rem;
+  justify-content: flex-start !important;
+} */
+
+.fc .fc-scrollgrid-liquid {
+  box-shadow: 1px 10px 20px #a99696;
+}
+
+.la-stopwatch:before {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  padding-right: 165px;
+}
+
+.fc .fc-toolbar h2 {
+  font-size: 20px;
+}
+
+tr[role="row"] {
+  /* display: none; */
+}
+
+.fc-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+/* tbody[role="presentation"] {
+  display: none;
+} */
+
+.clinic-name-container {
+  background-color: #f7b84b;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1256px) {
+  .la-stopwatch:before {
+    padding-right: 52px;
+  }
+}

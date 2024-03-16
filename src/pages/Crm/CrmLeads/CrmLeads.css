@@ -1,0 +1,35 @@
+.step-arrow-nav .nav .nav-link.active {
+  background-color: #fbc94d;
+  color: #fff;
+  box-shadow: none;
+}
+
+.step-arrow-nav .nav .nav-link::before {
+  content: "";
+  position: absolute;
+  border: 7px solid transparent;
+  right: -14px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.step-arrow-nav .nav .nav-link.active::before {
+  border-left-color: #fbc94d;
+}
+
+step-arrow-nav .nav .nav-link.done::before {
+  border-left-color: transparent;
+}
+
+.ri-user-2-line:before,
+.ri-truck-line:before,
+.ri-bank-card-line:before {
+  color: #fff !important;
+}
+
+.nav-item .nav-link {
+  font-size: 16px;
+  color: #000;
+  /* font-weight: 600; */
+}

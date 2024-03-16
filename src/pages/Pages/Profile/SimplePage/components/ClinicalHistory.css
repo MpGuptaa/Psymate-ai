@@ -1,0 +1,33 @@
+.new-clinical-cards-outer-container {
+  display: grid;
+  grid-template: auto/1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+  cursor: pointer;
+  padding-bottom: 2rem;
+}
+
+.new-clinical-cards-inner-container {
+  background-color: #fbcc76;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.font-dark {
+  font-weight: 600;
+  color: #000;
+}
+
+
+@media screen and (max-width: 769px) {
+  .new-clinical-cards-outer-container {
+    grid-template: auto/1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 469px) {
+  .new-clinical-cards-outer-container {
+    grid-template: auto/1fr;
+  }
+}

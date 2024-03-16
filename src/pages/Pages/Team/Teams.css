@@ -1,0 +1,47 @@
+.avtar-color {
+  color: #495057 !important;
+}
+
+.load-more-btn {
+  background-color: #f8b133 !important;
+  border: #f8b133;
+  color: #000;
+  font-weight: 600;
+}
+
+.users-btn {
+  background-color: #f8b133 !important;
+  border: #f8b133 !important;
+}
+
+.user-detail-container {
+  display: grid;
+  grid-template: 1fr/1fr 1fr;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* gap: 3px; */
+}
+
+.user-detail-container h5 {
+  margin: unset;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.user-detail-container p {
+  font-weight: 600;
+  text-align: center;
+}
+
+/* .title-name-flex {
+  display: flex;
+  align-items: center;
+} */
+
+.user-detail-container .la-phone:before,
+.user-detail-container .la-sms::before {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}

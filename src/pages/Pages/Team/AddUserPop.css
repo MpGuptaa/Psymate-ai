@@ -1,0 +1,107 @@
+#popUpForm {
+  position: fixed;
+  z-index: 999;
+  inset: 0;
+}
+
+.popUpBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  display: grid;
+  place-content: center;
+}
+
+.formWrapper {
+  background-color: #fefefe;
+  width: min(80vw, 400px);
+  /* height: min(90vh, 700px); */
+  border-radius: 20px;
+  -webkit-font-smoothing: antialiased;
+  backface-visibility: hidden;
+}
+
+.add-user-form {
+  padding: 2rem;
+}
+
+.form-header {
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.form-header h2 {
+  text-align: left;
+}
+
+.cross-icon {
+  background-color: #fa896b;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  position: absolute;
+  right: -9%;
+  top: -51%;
+  padding-right: 2rem;
+  cursor: pointer;
+}
+
+.complete-details-form .cross-icon {
+  top: -27%;
+}
+
+.cross-icon i {
+  width: auto;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  padding-left: 4px;
+  padding-top: 5px;
+}
+
+.popUp-otp-btn {
+  padding-top: 2rem;
+}
+
+.popUp-otp-btn button {
+  width: 100%;
+}
+
+.complete-details-form,
+.complete-details-form h2 {
+  text-align: center;
+}
+
+.form-gender-container {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.form-gender-container img {
+  width: 50px;
+}
+
+.others-form-container {
+  padding: 10px;
+}
+
+.input-group-calender .la-calendar:before {
+  position: absolute;
+  right: 20px;
+  z-index: 999999;
+  top: 28px;
+}
+
+.selectedGenderColor {
+  background-color: #fbc94d;
+}
+
+.form-gender-container:hover {
+  background-color: #fbc94d;
+}
